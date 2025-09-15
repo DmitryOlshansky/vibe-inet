@@ -6,7 +6,7 @@ license "MIT"
 
 dependency "vibe-core-light" version="0.0.3"
 dependency "vibe-serialization" version="*"
-dependency "vibe-stream-light" version="0.0.1"
+dependency "vibe-stream-light" version="0.0.2"
 dependency ":textfilter" version="*"
 versions "Have_vibe_core"
 targetType "library"
