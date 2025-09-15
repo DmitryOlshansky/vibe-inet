@@ -1,13 +1,14 @@
-name "vibe-inet"
+name "vibe-inet-light"
 description "Internet standard functionality"
 authors "Sönke Ludwig"
 copyright "Copyright © 2016-2024, Sönke Ludwig"
 license "MIT"
 
-dependency "vibe-core" version=">=2.8.1 <3.0.0-0"
+dependency "vibe-core-light" version="0.0.3"
 dependency "vibe-serialization" version="*"
-dependency "vibe-stream" version="*"
+dependency "vibe-stream-light" version="0.0.1"
 dependency ":textfilter" version="*"
+versions "Have_vibe_core"
 targetType "library"
 
 subPackage "textfilter"
