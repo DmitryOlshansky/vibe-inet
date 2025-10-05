@@ -1,7 +1,7 @@
 name "crypto"
 description "Cryptographic helper routines"
 targetType "library"
-dependency "vibe-core-light" version="0.2.2"
+dependency "vibe-core-light" version="0.2.3"
 dependency "mir-linux-kernel" version="~>1.2.1" platform="linux"
 sourcePaths "."
 importPaths "."
