@@ -1,6 +1,6 @@
 name "textfilter"
 description "Text filtering routines"
 targetType "library"
-dependency "vibe-core-light" version="0.1.0"
+dependency "vibe-core-light" version="0.2.2"
 sourcePaths "."
 importPaths "."
